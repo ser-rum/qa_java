@@ -1,42 +1,32 @@
 package com.example;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
 public class FelineTest {
 
-    @Before
-    public void setUp() throws Exception {
-    }
+    Feline feline = new Feline();
 
-    @After
-    public void tearDown() throws Exception {
+    @Test
+    public void shouldBeCatFamily() {
+        assertEquals("Кошачьи", feline.getFamily());
     }
 
     @Test
-    public void getFood() {
+    public void shouldBeMeat() throws Exception {
+        assertEquals(List.of("Животные", "Птицы", "Рыба"), feline.eatMeat());
     }
 
     @Test
-    public void getFamily() {
+    public void shouldBeOneKitten() {
+        assertEquals(1, feline.getKittens());
     }
 
     @Test
-    public void eatMeat() {
-    }
-
-    @Test
-    public void testGetFamily() {
-    }
-
-    @Test
-    public void getKittens() {
-    }
-
-    @Test
-    public void testGetKittens() {
+    public void shouldBeFiveKitten() {
+        assertEquals(5, feline.getKittens(5));
     }
 }
