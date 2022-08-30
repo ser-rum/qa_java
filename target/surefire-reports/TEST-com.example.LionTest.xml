@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="com.example.LionTest" time="0.019" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="com.example.LionTest" time="0.025" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,12 +63,12 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.example.LionTest" name="shouldBeMeat[0]" time="0.018"/>
+  <testcase classname="com.example.LionTest" name="shouldBeMeat[0]" time="0.021"/>
   <testcase classname="com.example.LionTest" name="shouldHaveMane[0]" time="0"/>
   <testcase classname="com.example.LionTest" name="shouldBeOneKitten[0]" time="0"/>
-  <testcase classname="com.example.LionTest" name="shouldBeException[0]" time="0.001"/>
-  <testcase classname="com.example.LionTest" name="shouldBeMeat[1]" time="0"/>
-  <testcase classname="com.example.LionTest" name="shouldHaveMane[1]" time="0"/>
-  <testcase classname="com.example.LionTest" name="shouldBeOneKitten[1]" time="0"/>
-  <testcase classname="com.example.LionTest" name="shouldBeException[1]" time="0"/>
+  <testcase classname="com.example.LionTest" name="shouldBeException[0]" time="0"/>
+  <testcase classname="com.example.LionTest" name="shouldBeMeat[1]" time="0.001"/>
+  <testcase classname="com.example.LionTest" name="shouldHaveMane[1]" time="0.001"/>
+  <testcase classname="com.example.LionTest" name="shouldBeOneKitten[1]" time="0.001"/>
+  <testcase classname="com.example.LionTest" name="shouldBeException[1]" time="0.001"/>
 </testsuite>
