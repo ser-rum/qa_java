@@ -23,10 +23,7 @@
 hs_err_pid*
 
 #idea work files
-/.idea
-
-#maven work files needed to check
-!/target/site/*
+.idea
 
 #maven work files
-/target/*
+target/
